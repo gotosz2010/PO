@@ -31,7 +31,6 @@ class Test_Advanced_Application(unittest.TestCase):
         ie_driver.find_element_by_id("su").click()
 
     def test_simulate_keyboard(self):
-
         Simulate_Keyboard.click_onekey('enter')
         Simulate_Keyboard.click_twokey('ctrl', 'c')
         Simulate_Keyboard.click_onekey('enter')
@@ -156,8 +155,9 @@ class Test_Advanced_Application(unittest.TestCase):
                              )
     def test_upload_by_sendkeys(self):
         chrome_driver = webdriver.Chrome()
+        str = "E://test_upload_file.txt"
         chrome_driver.get("file:///C:/Users/Administrator/Desktop/fileupload.html")
-        chrome_driver.find_element_by_name("fileupload").send_keys("E:\\test_upload_file.txt")
+        chrome_driver.find_element_by_name("fileupload").send_keys(str)
         time.sleep(10)
         chrome_driver.quit()
     def test_upload_by_autoit(self):
@@ -168,6 +168,16 @@ class Test_Advanced_Application(unittest.TestCase):
         time.sleep(10)
         chrome_driver.quit()
 
+    def test_upload_by_simulation(self):
+        Simulate_Clipboard.set_clipboard("E:\\test_upload_file.txt")
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("file:///C:/Users/Administrator/Desktop/fileupload.html")
+        chrome_driver.find_element_by_name("fileupload").click()
+        time.sleep(5)
+        Simulate_Keyboard.click_twokey('ctrl', 'v')
+        time.sleep(5)
+        Simulate_Keyboard.click_onekey('enter')
+        time.sleep(20)
 
 
 if __name__ == '__main__':
