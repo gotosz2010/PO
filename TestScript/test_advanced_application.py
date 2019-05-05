@@ -9,6 +9,7 @@ import time
 from Util.Intelligent_Wait import WaitUntil
 from selenium.webdriver.common.action_chains import ActionChains
 from Util import GetLog
+import os
 
 testlogger = GetLog.Logger('Test_Advanced_Application').getlog()  # 调用封装好的方法
 
@@ -153,6 +154,20 @@ class Test_Advanced_Application(unittest.TestCase):
                              ['ERROR:Test_Advanced_Application:打开浏览器',
                               'INFO:Test_Advanced_Application:关闭并退出浏览器']
                              )
+    def test_upload_by_sendkeys(self):
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("file:///C:/Users/Administrator/Desktop/fileupload.html")
+        chrome_driver.find_element_by_name("fileupload").send_keys("E:\\test_upload_file.txt")
+        time.sleep(10)
+        chrome_driver.quit()
+    def test_upload_by_autoit(self):
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("file:///C:/Users/Administrator/Desktop/fileupload.html")
+        chrome_driver.find_element_by_name("fileupload").click()
+        os.system("E:\\PO\\Util\\upload_file.exe")
+        time.sleep(10)
+        chrome_driver.quit()
+
 
 
 if __name__ == '__main__':
