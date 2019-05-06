@@ -5,7 +5,7 @@ from selenium.webdriver.support.select import Select
 driver = None
 class Browser_Controller:
 
-    def __init__(self, driver=''):
+    def __init__(self, driver):
         self.driver = driver
 
 
@@ -108,3 +108,48 @@ class Browser_Controller:
         :return:
         """
         Select(element).select_by_visible_text(text)
+
+    def delete_current_cookie(self):
+        """
+        删除所有cookie
+        :return:
+        """
+        self.driver.delete_all_cookies()
+
+    def get_current_cookies(self):
+        """
+        获取当前cookies
+        :return:
+        """
+        current_cookie = self.driver.get_cookies()
+        return current_cookie
+
+    def get_current_cookie_value(self, key):
+        """
+        获取key为key的cookie信息
+        :param key:
+        :return:
+        """
+        key_cookie = self.driver.get_cookie(key)
+        return key_cookie
+
+    def add_key_value_to_cookie(self, cookie_dict):
+        """
+        添加cookie
+        :return:
+        """
+        self.driver.add_cookie(cookie_dict)
+
+    def click_element_in_table(self, table_element, string):
+        """
+        定位页面table中的字符串并点击
+        :param table_element:
+        :param string:
+        :return:
+        """
+        trlist = table_element.find_elements_by_tag_name("tr")
+        for row in trlist:
+            tdlist = row.find_elements_by_tag_name("td")
+            for col in tdlist:
+                if col.text == string:
+                    col.click()

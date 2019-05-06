@@ -10,6 +10,7 @@ from Util.Intelligent_Wait import WaitUntil
 from selenium.webdriver.common.action_chains import ActionChains
 from Util import GetLog
 import os
+from Util.JSAssistance import JS_Assistance
 
 testlogger = GetLog.Logger('Test_Advanced_Application').getlog()  # 调用封装好的方法
 
@@ -179,6 +180,37 @@ class Test_Advanced_Application(unittest.TestCase):
         Simulate_Keyboard.click_onekey('enter')
         time.sleep(20)
 
+    def test_cookies(self):
+        cookie_dict = {'name': 'name_yang', 'value': 'cookie_yang'}
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("https://www.baidu.com")
+        time.sleep(10)
+        current_cookie = Browser_Controller(chrome_driver).get_current_cookies()
+        print(current_cookie)
+        Browser_Controller(chrome_driver).add_key_value_to_cookie(cookie_dict)
+        key_cookie = Browser_Controller(chrome_driver).get_current_cookie_value('name_yang')
+        print(key_cookie)
+        Browser_Controller(chrome_driver).delete_current_cookie()
+        current_cookie_2 = Browser_Controller(chrome_driver).get_current_cookies()
+        print(str(current_cookie_2) + "只有这几个字没有cookie了")
 
+    def test_js(self):
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("http://www.baidu.com")
+        chrome_driver.find_element_by_id("kw").send_keys("davieyang")
+        chrome_driver.find_element_by_id("su").click()
+        JS_Assistance(chrome_driver).scroll_to_bottom()
+        time.sleep(3)
+        JS_Assistance(chrome_driver).scroll_to_top()
+        time.sleep(3)
+        JS_Assistance(chrome_driver).scroll_to_bottom_page()
+        time.sleep(3)
+        JS_Assistance(chrome_driver).scrolltotop()
+        time.sleep(3)
+        JS_Assistance(chrome_driver).scrolltobottom()
+        time.sleep(3)
+        element = chrome_driver.find_element_by_xpath("//*[@id='help']/a[3]")
+        JS_Assistance(chrome_driver).single_click(element)
+        time.sleep(3)
 if __name__ == '__main__':
     unittest.main(verbosity=2)
