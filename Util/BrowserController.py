@@ -1,6 +1,7 @@
 # encoding = utf-8
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
+from time import sleep
 
 driver = None
 class Browser_Controller:
@@ -34,6 +35,13 @@ class Browser_Controller:
         :param none:
         """
         self.driver.forward()
+
+    def refresh(self):
+        """
+        刷新页面
+        :return:
+        """
+        self.driver.refresh()
 
     def open_url(self, url):
         """
@@ -147,9 +155,59 @@ class Browser_Controller:
         :param string:
         :return:
         """
-        trlist = table_element.find_elements_by_tag_name("tr")
-        for row in trlist:
-            tdlist = row.find_elements_by_tag_name("td")
-            for col in tdlist:
+        tr_list = table_element.find_elements_by_tag_name("tr")
+        for row in tr_list:
+            td_list = row.find_elements_by_tag_name("td")
+            sleep(2)
+            for col in td_list:
+                sleep(2)
                 if col.text == string:
                     col.click()
+
+    def get_row_count(self, table_element):
+        """
+        获取表格总行数
+        :param table_element:
+        :return:
+        """
+        tr_list = table_element.find_elements_by_tag_name("tr")
+        row_count = len(tr_list)
+        return row_count
+
+    def get_col_count(self, table_element):
+        """
+        获取表格总列数
+        :param table_element:
+        :return:
+        """
+        tr_list = table_element.find_elements_by_tag_name("tr")
+        for row in tr_list:
+            td_list = row.find_elements_by_tag_name("td")
+            col_count = len(td_list)
+            return col_count
+
+    def get_cell(self, table_element, row, col):
+        """
+        获取具体第row行第col列的元素
+        :param table_element:
+        :param row:
+        :param col:
+        :return:
+        """
+        tr_list = table_element.find_elements_by_tag_name("tr")
+        target_row = tr_list[row-1]
+        td_list = target_row.find_elements_by_tag_name("td")
+        target_cell = td_list[col-1]
+        return target_cell
+
+    def get_cell_by_xpath(self, row, col):
+        """
+        通过已知表格的xpath获取表内具体row行col列的元素
+        :param row:
+        :param col:
+        :return:
+        """
+        row = row + 1
+        xpath = "//*[@id='table']/tbody/tr[" + row + "]/td[" + col + "]"
+        cell_element = self.driver.find_elemenet_by_xpath(xpath)
+        return cell_element

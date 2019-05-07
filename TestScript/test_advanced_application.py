@@ -212,5 +212,17 @@ class Test_Advanced_Application(unittest.TestCase):
         element = chrome_driver.find_element_by_xpath("//*[@id='help']/a[3]")
         JS_Assistance(chrome_driver).single_click(element)
         time.sleep(3)
+
+    def test_table_util(self):
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("file:///C:/Users/Administrator/Desktop/table.html")
+        chrome_driver.implicitly_wait(20)
+        table_element = chrome_driver.find_element_by_id("table")
+        string = u"用例一失败"
+        Browser_Controller(chrome_driver).click_element_in_table(table_element, string)
+
+
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
