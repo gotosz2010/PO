@@ -18,6 +18,7 @@ testlogger = GetLog.Logger('Test_Advanced_Application').getlog()  # 调用封装
 class Test_Advanced_Application(unittest.TestCase):
     def setUp(self):
         self.url = 'http://www.baidu.com'  # 定义url
+
     def test_control_browser(self):
         BC = Browser_Controller()  # 实例化Browser_Controller类
         chrome_driver = BC.driver_browser("chrome", self.url)  # 调用start_browser方法用于启动相应浏览器并打开url
@@ -55,7 +56,7 @@ class Test_Advanced_Application(unittest.TestCase):
         # 实例化WaitUntil类
         wait_until = WaitUntil(driver)
         # 判断如果iframe存在则切换进去
-        wait_until.frame_to_be_available_and_switch_to_it\
+        wait_until.frame_to_be_available_and_switch_to_it \
             ("xpath", "html/body/div[2]/div/div/div[3]/div[3]/div[1]/div[1]/iframe")
         # 等待页面元素xpath = //input[@name='email']的出现
         wait_until.visibility_element_located("xpath", "//input[@name='email']")
@@ -84,7 +85,7 @@ class Test_Advanced_Application(unittest.TestCase):
         time.sleep(10)
         #  调用我们封装好的方法
         al = Browser_Controller(chrome_driver).switch_to_alert()
-        print(al.text)  #  打印弹窗中的文本
+        print(al.text)  # 打印弹窗中的文本
         # 相当于点击弹窗中的确定按钮，但实际并不是点击只是弹窗对象提供的方法，效果一样
         al.accept()
 
@@ -98,7 +99,7 @@ class Test_Advanced_Application(unittest.TestCase):
         time.sleep(3)
         #  调用我们封装好的方法
         al = Browser_Controller(chrome_driver).switch_to_alert()
-        print(al.text)  #  打印弹窗中的文本
+        print(al.text)  # 打印弹窗中的文本
         # 相当于点击弹窗中的确定按钮，但实际并不是点击只是弹窗对象提供的方法，效果一样
         al.dismiss()
 
@@ -112,7 +113,7 @@ class Test_Advanced_Application(unittest.TestCase):
         time.sleep(3)
         #  调用我们封装好的方法
         al = Browser_Controller(chrome_driver).switch_to_alert()
-        print(al.text)  #  打印弹窗中的文本
+        print(al.text)  # 打印弹窗中的文本
         # 相当于点击弹窗中的确定按钮，但实际并不是点击只是弹窗对象提供的方法，效果一样
         al.accept()
 
@@ -154,6 +155,7 @@ class Test_Advanced_Application(unittest.TestCase):
                              ['ERROR:Test_Advanced_Application:打开浏览器',
                               'INFO:Test_Advanced_Application:关闭并退出浏览器']
                              )
+
     def test_upload_by_sendkeys(self):
         chrome_driver = webdriver.Chrome()
         str = "E://test_upload_file.txt"
@@ -161,6 +163,7 @@ class Test_Advanced_Application(unittest.TestCase):
         chrome_driver.find_element_by_name("fileupload").send_keys(str)
         time.sleep(10)
         chrome_driver.quit()
+
     def test_upload_by_autoit(self):
         chrome_driver = webdriver.Chrome()
         chrome_driver.get("file:///C:/Users/Administrator/Desktop/fileupload.html")
@@ -221,7 +224,31 @@ class Test_Advanced_Application(unittest.TestCase):
         string = u"用例一失败"
         Browser_Controller(chrome_driver).click_element_in_table(table_element, string)
 
-
+    def test_switch_window_handle(self):
+        chrome_driver = webdriver.Chrome()
+        chrome_driver.get("http://www.baidu.com")
+        baidu_main_handle = chrome_driver.current_window_handle
+        print(baidu_main_handle)
+        time.sleep(5)
+        chrome_driver.find_element_by_link_text("登录").click()
+        time.sleep(5)
+        chrome_driver.find_element_by_link_text("立即注册").click()
+        all_handles = chrome_driver.window_handles
+        print(all_handles)
+        for handle in all_handles:
+            try:
+                if handle != baidu_main_handle:
+                    chrome_driver.switch_to.window(handle)
+                    print("进入新窗口....")
+                    chrome_driver.switch_to.window(baidu_main_handle)
+                    chrome_driver.refresh()
+                    chrome_driver.find_element_by_id("kw").send_keys("__davieyang__")
+                    time.sleep(5)
+                    chrome_driver.find_element_by_id("su").click()
+                    time.sleep(5)
+            except Exception as e:
+                raise e
+        chrome_driver.quit()
 
 
 if __name__ == '__main__':
