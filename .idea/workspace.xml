@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74eb2dc-76ed-4a22-aea3-05803865866e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataDrivenTest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataDrivenTest/ddt_by_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataDrivenTest/ddt_by_list_plus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/ConstantConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/ConstantConfig.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -313,7 +308,7 @@
       <workItem from="1557191924577" duration="9535000" />
       <workItem from="1557282736031" duration="4075000" />
       <workItem from="1557306639378" duration="125000" />
-      <workItem from="1557364834287" duration="3290000" />
+      <workItem from="1557364834287" duration="3932000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1557213815301</created>
@@ -336,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557288572551</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1557368160094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557368160094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -372,11 +374,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25147000" />
+    <option name="totallyTimeSpent" value="25789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18686599" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
