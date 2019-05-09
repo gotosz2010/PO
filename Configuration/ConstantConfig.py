@@ -8,8 +8,8 @@ __mtime__ = '2018/4/21'
 import os
 
 # 获取当前文件所在目录的父目录的绝对路径
-parentDirPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-print(parentDirPath)
+parent_directory_path = os.path.abspath('..')
+print(parent_directory_path)
 
 # 获取存放页面元素定位表达式文件的绝对路径
-pageElementLocatorPath = parentDirPath + u"\\Configurations\\PageElementLocator.ini"
+pageElementLocatorPath = parent_directory_path + u"\\Configurations\\PageElementLocator.ini"
