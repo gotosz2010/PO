@@ -1,3 +1,18 @@
-Sun, 12 May 2019 23:30:10 ddt_by_excel.py[line: 56] INFO 搜索 ‘北京’,期望 ‘北京’ ,通过
-Sun, 12 May 2019 23:30:23 ddt_by_excel.py[line: 56] INFO 搜索 ‘上海’,期望 ‘上海’ ,通过
-Sun, 12 May 2019 23:30:35 ddt_by_excel.py[line: 56] INFO 搜索 ‘广州’,期望 ‘广州’ ,通过
+Mon, 13 May 2019 03:51:20 ddt_by_list.py[line: 53] ERROR 未知错误，错误信息：Traceback (most recent call last):
+  File "E:\pubbookone\DataDrivenTest\ddt_by_list.py", line 42, in test_dataDrivenByDDT
+    self.driver.find_element_by_id("dologin").click()  # 点击登陆按钮
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <iframe name="" frameborder="0" id="x-URS-iframe1557690663191.354" scrolling="no" style="width: 100%; height: 100%; border: none; background: none;" src="https://dl.reg.163.com/webzj/v1.0.1/pub/index_dl2_new.html?cd=https%3A%2F%2Fmimg.127.net%2Fp%2Ffreemail%2Findex%2F163%2Fstatic%2F2019%2Fcss%2F&amp;cf=urs.6fa3c8f3.css&amp;MGID=1557690663191.354&amp;wdaId=&amp;pkid=CvViHzl&amp;product=mail163" cd_frame_id_="b456b3d9c930e0d127ef27f3bbc20156"></iframe> is not clickable at point (683, 386). Other element would receive the click: <div id="normalLoginFormMask" class="login-form-mask" style="">...</div>
+  (Session info: chrome=74.0.3724.8)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.10240 x86_64)
+
+
+Mon, 13 May 2019 03:51:35 ddt_by_list.py[line: 50] INFO 邮箱 '158@163.com', 登陆失败
+Mon, 13 May 2019 03:51:52 ddt_by_list.py[line: 50] INFO 邮箱 '157@163.com', 登陆失败

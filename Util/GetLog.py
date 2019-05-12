@@ -6,10 +6,10 @@ __mtime__ = '2018/4/21'
 """
 import time
 import logging
-from Configuration.ConstantConfig import parent_directory_path
+from Configuration import ConstantConfig
 
 
-class Logger(object):
+class Logger:
 
     def __init__(self, logger):
         """
@@ -23,8 +23,9 @@ class Logger(object):
 
         # 创建一个handler，用于写入日志文件
         rq = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time()))
-        log_path = parent_directory_path + '/TestResult/TestLog/'
-        log_name = log_path + rq + '.log'
+        logpath = "\\pubbookone\\TestResult\\TestLog\\"
+        print(logpath)
+        log_name = logpath + rq + '.log'
         filehandler = logging.FileHandler(log_name)
         filehandler.setLevel(logging.INFO)
 
@@ -43,3 +44,4 @@ class Logger(object):
 
     def getlog(self):
         return self.logger
+

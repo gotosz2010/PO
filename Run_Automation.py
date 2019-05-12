@@ -16,11 +16,11 @@ class StartTest(object):
         print(parentDirPath)
         test_suite = unittest.defaultTestLoader.discover('TestScript', pattern='test*.py')
         current_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-        filename = parentDirPath + "\\PO\\TestResult\\Results-" + current_time + "result.html"
+        filename = parentDirPath + "\\TestResult\\Results-" + current_time + "result.html"
         print(filename)
         fp = open(filename, 'wb')
         runner = HTMLTestRunner.HTMLTestRunner\
-            (stream=fp, title='Result', description='Test_Report')
+            (stream=fp, title='Report', description='Test_Report')
         runner.run(test_suite)
         print('Test reports generate finished')
 

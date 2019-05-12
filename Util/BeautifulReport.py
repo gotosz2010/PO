@@ -251,7 +251,7 @@ class ReportTestResult(unittest.TestResult):
     
     def addError(self, test, err):
         """
-            add Some Error Result and infos
+            add Some Error Report and infos
         :param test:
         :param err:
         :return:
@@ -273,7 +273,7 @@ class ReportTestResult(unittest.TestResult):
     
     def addFailure(self, test, err):
         """
-            add Some Failures Result and infos
+            add Some Failures Report and infos
         :param test:
         :param err:
         :return:
