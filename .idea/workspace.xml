@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79cb1899-ec7d-44b2-bd07-aa4255c03528" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PO.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pubbookone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/fileupload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestData/test_alert.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run_Automation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_Automation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run_Automation_BR.py" beforeDir="false" afterPath="$PROJECT_DIR$/Run_Automation_BR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/ddt_by_list.log" beforeDir="false" afterPath="$PROJECT_DIR$/TestResult/TestLog/ddt_by_list.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/BeautifulReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/BeautifulReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Util/GetLog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Util/GetLog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-20-48-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-20-55-57.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-20-57-51.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-20-58-48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-03-31.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-04-44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-18-37.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-18-48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-19-00.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestResult/TestLog/2019-05-12-21-25-14.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +37,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestResult/TestLog/2019-05-13-04-01-58.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -77,15 +78,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataDrivenTest/ddt_by_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestScript/test_advanced_application.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2711">
@@ -100,7 +92,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestScript/Test_Baidu_Main_Page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state>
               <folding>
                 <element signature="e#19#49#0" expanded="true" />
               </folding>
@@ -109,12 +101,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestResult/TestLog/2019-05-13-03-57-29.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/TestScript/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -165,6 +153,24 @@
               <item name="pubbookone" type="b2602c69:ProjectViewProjectNode" />
               <item name="pubbookone" type="462c0819:PsiDirectoryNode" />
               <item name="TestScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubbookone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubbookone" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubbookone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubbookone" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-2.10.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pubbookone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pubbookone" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-2.10.0" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pubbookone" type="b2602c69:ProjectViewProjectNode" />
@@ -266,8 +272,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557689897075</updated>
-      <workItem from="1557689901526" duration="1811000" />
+      <workItem from="1557689901526" duration="3131000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1557691757064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557691757064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -279,7 +293,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1811000" />
+    <option name="totallyTimeSpent" value="3131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1936" height="1066" extended-state="6" />
@@ -310,6 +324,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pubbookone$Unittests_in_ddt_by_list_py.coverage" NAME="Unittests in ddt_by_list.py Coverage Results" MODIFIED="1557690645774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataDrivenTest" />
@@ -409,9 +427,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestScript/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestScript/Test_Baidu_Main_Page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state>
           <folding>
             <element signature="e#19#49#0" expanded="true" />
           </folding>
