@@ -11,6 +11,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from Util import GetLog
 import os
 from Util.JSAssistance import JS_Assistance
+from Util.ParseMysql import Parse_Mysql
+from TestData import SQL_Script
 
 testlogger = GetLog.Logger('Test_Advanced_Application').getlog()  # 调用封装好的方法
 
@@ -250,6 +252,58 @@ class Test_Advanced_Application(unittest.TestCase):
                 raise e
         chrome_driver.quit()
 
+    def test_create_database(self):
+        db = Parse_Mysql(
+            host="localhost",
+            port=3306,
+            dbName="mysql",
+            username="root",
+            password="",
+            charset="utf8"
+            )
+        createdatabase = SQL_Script.createdatabase
+        db.create_database(createdatabase)
+
+    def test_create_table(self):
+        db = Parse_Mysql(
+            host="localhost",
+            port=3306,
+            dbName="mysql",
+            username="root",
+            password="",
+            charset="utf8"
+            )
+        createtable = SQL_Script.createtable
+        db.create_table("automation", createtable)
+
+    def test_insert_data(self):
+        db = Parse_Mysql(
+            host="localhost",
+            port=3306,
+            dbName="mysql",
+            username="root",
+            password="",
+            charset="utf8"
+            )
+        data = SQL_Script.datalist
+        insertdata = SQL_Script.insertdata
+        db.insert_data("automation", insertdata, data)
+
+    def test_get_data(self):
+        db = Parse_Mysql(
+            host="localhost",
+            port=3306,
+            dbName="mysql",
+            username="root",
+            password="",
+            charset="utf8"
+            )
+        selectdata = SQL_Script.selectdata
+        data = db.select_data_from_table("automation", selectdata)
+        print(data)
+
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    testunit = unittest.TestSuite()
+    testunit.addTest(Test_Advanced_Application('test_create_database'))
+    unittest.TextTestRunner().run(testunit)

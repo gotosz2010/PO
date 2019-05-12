@@ -1,0 +1,3 @@
+Sun, 12 May 2019 21:28:13 ddt_by_mysql.py[line: 68] INFO 搜索 ‘selenium xml DataDriven’,期望 ‘davieyang’ ,通过
+Sun, 12 May 2019 21:28:25 ddt_by_mysql.py[line: 64] INFO 搜索 ‘selenium excel DataDriven’,期望 ‘davieyang’ ,失败
+Sun, 12 May 2019 21:28:37 ddt_by_mysql.py[line: 68] INFO 搜索 ‘selenium ddt data list’,期望 ‘davieyang’ ,通过

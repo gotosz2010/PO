@@ -13,3 +13,5 @@ print(parent_directory_path)
 
 # 获取存放页面元素定位表达式文件的绝对路径
 pageElementLocatorPath = parent_directory_path + u"\\Configurations\\PageElementLocator.ini"
+# 获取xml测试数据文件所在路径
+xmldata = parent_directory_path + u"\\TestData\\test_search_data.xml"
