@@ -15,3 +15,16 @@ print(parent_directory_path)
 pageElementLocatorPath = parent_directory_path + u"\\Configurations\\PageElementLocator.ini"
 # 获取xml测试数据文件所在路径
 xmldata = parent_directory_path + u"\\TestData\\test_search_data.xml"
+
+
+# 获取jsonlist测试数据文件所在路径
+jsonlistdata = parent_directory_path + u"\\TestData\\city.json"
+
+
+# 获取jsondict测试数据文件所在路径
+jsondictdata = parent_directory_path + u"\\TestData\\login.json"
+
+# 获取Excel测试数据文件所在路径
+exceldata = parent_directory_path + u"\\TestData\\city.xlsx"
+
+

@@ -1,3 +1,5 @@
-Sun, 12 May 2019 22:15:02 ddt_by_xml.py[line: 54] INFO 搜索 ‘selenium’,期望 ‘davieyang’ ,失败
-Sun, 12 May 2019 22:15:14 ddt_by_xml.py[line: 54] INFO 搜索 ‘appium’,期望 ‘davieyang’ ,失败
-Sun, 12 May 2019 22:15:26 ddt_by_xml.py[line: 54] INFO 搜索 ‘golang’,期望 ‘davieyang’ ,失败
+Sun, 12 May 2019 22:31:16 ddt_by_json_list.py[line: 51] INFO 搜索 '北京',期望 '北京' ,通过
+Sun, 12 May 2019 22:31:31 ddt_by_json_list.py[line: 51] INFO 搜索 '上海',期望 '上海' ,通过
+Sun, 12 May 2019 22:31:45 ddt_by_json_list.py[line: 51] INFO 搜索 '广州',期望 '广州' ,通过
+Sun, 12 May 2019 22:31:58 ddt_by_json_list.py[line: 51] INFO 搜索 '深圳',期望 '深圳' ,通过
+Sun, 12 May 2019 22:32:12 ddt_by_json_list.py[line: 51] INFO 搜索 '香港',期望 '香港' ,通过
