@@ -1,0 +1,114 @@
+{
+  "uid" : "6a668d1cc585bbdf",
+  "name" : "test_search_davieyang",
+  "fullName" : "TestScript.Test_Baidu_Main_Page_Plus.Search_Page#test_search_davieyang",
+  "historyId" : "4748a65da0194e6cf440daf2912de939",
+  "time" : {
+    "start" : 1557748554376,
+    "stop" : 1557748563336,
+    "duration" : 8960
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1557748554375,
+      "stop" : 1557748554375,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "94332f35efbf2d33",
+      "name" : "log",
+      "source" : "94332f35efbf2d33.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "35e4eaedf037c900",
+      "name" : "stdout",
+      "source" : "35e4eaedf037c900.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d7fe9773aea8f5b3",
+      "name" : "stderr",
+      "source" : "d7fe9773aea8f5b3.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1557748563340,
+      "stop" : 1557748563340,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestScript"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Baidu_Main_Page_Plus"
+  }, {
+    "name" : "subSuite",
+    "value" : "Search_Page"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FBNRSPO"
+  }, {
+    "name" : "thread",
+    "value" : "4396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestScript.Test_Baidu_Main_Page_Plus"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a668d1cc585bbdf.json",
+  "parameterValues" : [ ]
+}

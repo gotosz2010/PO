@@ -1,0 +1,469 @@
+{
+  "5018ef26393bdace0ee1976a08597327" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29a1a79e965a13f",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)\")",
+      "time" : {
+        "start" : 1557748577458,
+        "stop" : 1557748579463,
+        "duration" : 2005
+      }
+    } ]
+  },
+  "bb6c61a3419b1fd4abf662f417ea0ba4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be6ec39143884674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748648662,
+        "stop" : 1557748648684,
+        "duration" : 22
+      }
+    } ]
+  },
+  "4a1d9339df3e18cdcce2e5b5618f7496" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31b2185a2bade6d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748738480,
+        "stop" : 1557748753199,
+        "duration" : 14719
+      }
+    } ]
+  },
+  "d365ea35949cd4b7adb1b56a3230ee63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6292520f0375dacd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'driver'",
+      "time" : {
+        "start" : 1557748563355,
+        "stop" : 1557748563356,
+        "duration" : 1
+      }
+    } ]
+  },
+  "388401f5f64da7140986ec3ba895b51c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a09502983ebc1d18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748648710,
+        "stop" : 1557748661544,
+        "duration" : 12834
+      }
+    } ]
+  },
+  "5bf59a27a3ba239feb3775c79bd42053" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "775e568f968fdf79",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748684879,
+        "stop" : 1557748696392,
+        "duration" : 11513
+      }
+    } ]
+  },
+  "40c8fd5b7e28bb788af1a65e5943aa24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd4eaff0e034c47d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748585965,
+        "stop" : 1557748595298,
+        "duration" : 9333
+      }
+    } ]
+  },
+  "4e6d938a896021ed944dbb6702b3767a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "883f6dbc176aa994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748563472,
+        "stop" : 1557748577454,
+        "duration" : 13982
+      }
+    } ]
+  },
+  "9b7c3c5dae1e5e1a1ab34c0d68da1eca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f97cbe31c983b089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748802295,
+        "stop" : 1557748808597,
+        "duration" : 6302
+      }
+    } ]
+  },
+  "29ea2b5554dabf9999151ac39d85b580" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bd68d493a41b5795",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom no such window: window was already closed\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748696493,
+        "stop" : 1557748700920,
+        "duration" : 4427
+      }
+    } ]
+  },
+  "b06523e5a978c990ba19f080111ecbb7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b43c8113a60f0d4",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)\")",
+      "time" : {
+        "start" : 1557748583840,
+        "stop" : 1557748585861,
+        "duration" : 2021
+      }
+    } ]
+  },
+  "2c0cd6a46c07522407c25f4344554ae7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c88d0d821805a070",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748701003,
+        "stop" : 1557748707363,
+        "duration" : 6360
+      }
+    } ]
+  },
+  "dae28b7e27a883de6fd1928f105f894f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed036f042d58cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748767854,
+        "stop" : 1557748800271,
+        "duration" : 32417
+      }
+    } ]
+  },
+  "c045ea2f06530bcc3fcb024096845eb4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29906221b624fba9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748648701,
+        "stop" : 1557748648704,
+        "duration" : 3
+      }
+    } ]
+  },
+  "b2a5e6862f31c53bee565e8d597a365c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bccb272d05ead0f6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748721925,
+        "stop" : 1557748738382,
+        "duration" : 16457
+      }
+    } ]
+  },
+  "4748a65da0194e6cf440daf2912de939" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a668d1cc585bbdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748554376,
+        "stop" : 1557748563336,
+        "duration" : 8960
+      }
+    } ]
+  },
+  "4f3911b2aa0e4863b30d23d1fbddbe76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfa4a90b7ff6edf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748597482,
+        "stop" : 1557748619476,
+        "duration" : 21994
+      }
+    } ]
+  },
+  "4f1d967b34af3e7d299d2599b448c06d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2034a50ce56a6af2",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)\")",
+      "time" : {
+        "start" : 1557748581714,
+        "stop" : 1557748583728,
+        "duration" : 2014
+      }
+    } ]
+  },
+  "4d60de3a43fdc21c0eebd637fe299dda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "164950078f1754ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748661554,
+        "stop" : 1557748682761,
+        "duration" : 21207
+      }
+    } ]
+  },
+  "1b2f5d7a38085ad283875eee550c04b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ebf249699b924dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748541879,
+        "stop" : 1557748554358,
+        "duration" : 12479
+      }
+    } ]
+  },
+  "b866e9bff6583ac0657325e25030a08d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38c6ccc05d138c97",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "time" : {
+        "start" : 1557748707444,
+        "stop" : 1557748721849,
+        "duration" : 14405
+      }
+    } ]
+  },
+  "5f1b72af04fb41ceb9f7ede288deb66a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "523a9de4a7d3c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748619492,
+        "stop" : 1557748648646,
+        "duration" : 29154
+      }
+    } ]
+  },
+  "5d604c98a64e3d23a1ead529b6c9aad8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cea52b72aea0586",
+      "status" : "broken",
+      "statusDetails" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)\")",
+      "time" : {
+        "start" : 1557748595312,
+        "stop" : 1557748597329,
+        "duration" : 2017
+      }
+    } ]
+  },
+  "960803e0add6b03dc166cc983c550ddd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88171319d5ec89f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1557748753213,
+        "stop" : 1557748767840,
+        "duration" : 14627
+      }
+    } ]
+  }
+}

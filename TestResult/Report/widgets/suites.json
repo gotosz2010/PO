@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "1a80b786092dda37beb9c24adcc5b80c",
+    "name" : "TestScript",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 11,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 24
+    }
+  } ]
+}

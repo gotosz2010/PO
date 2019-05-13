@@ -1,0 +1,5 @@
+test_advanced_application.py  141 INFO     打开浏览器
+test_advanced_application.py  144 INFO     最大化浏览器窗口。
+test_advanced_application.py  146 INFO     打开百度首页。
+test_advanced_application.py  148 INFO     暂停3秒。
+test_advanced_application.py  150 INFO     关闭并退出浏览器

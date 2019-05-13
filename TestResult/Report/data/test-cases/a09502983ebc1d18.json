@@ -1,0 +1,114 @@
+{
+  "uid" : "a09502983ebc1d18",
+  "name" : "test_simulate_mouse",
+  "fullName" : "TestScript.test_advanced_application.Test_Advanced_Application#test_simulate_mouse",
+  "historyId" : "388401f5f64da7140986ec3ba895b51c",
+  "time" : {
+    "start" : 1557748648710,
+    "stop" : 1557748661544,
+    "duration" : 12834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1557748563353,
+      "stop" : 1557748563353,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7c82b37e32905d6",
+      "name" : "log",
+      "source" : "c7c82b37e32905d6.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "76d095d5e2d17eb4",
+      "name" : "stdout",
+      "source" : "76d095d5e2d17eb4.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e823c9b15546e395",
+      "name" : "stderr",
+      "source" : "e823c9b15546e395.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1557748808601,
+      "stop" : 1557748808601,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestScript"
+  }, {
+    "name" : "suite",
+    "value" : "test_advanced_application"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Advanced_Application"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FBNRSPO"
+  }, {
+    "name" : "thread",
+    "value" : "4396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestScript.test_advanced_application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a09502983ebc1d18.json",
+  "parameterValues" : [ ]
+}

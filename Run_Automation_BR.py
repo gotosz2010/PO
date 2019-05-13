@@ -8,4 +8,4 @@ if __name__ == '__main__':
     test_suite = unittest.defaultTestLoader.discover('TestScript', pattern='test*.py')  # 定义测试集合
     result = BeautifulReport(test_suite)  # 将测试集合穿给BeautifulReport
     result.report(filename='测试报告', description='测试报告'
-                  , log_path=parentDirPath + "\\TestResult\\")  # 调用report方法并传参生成报告
+                  , log_path=parentDirPath + "\\pubbookone\\TestResult\\Report\\")  # 调用report方法并传参生成报告

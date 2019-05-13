@@ -1,0 +1,172 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: __init__() missing 1 required positional argument: 'driver'",
+      "children" : [ {
+        "name" : "test_control_browser",
+        "uid" : "6292520f0375dacd",
+        "parentUid" : "dd4fd5a5a7e312bbb83409214423b18b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748563355,
+          "stop" : 1557748563356,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd4fd5a5a7e312bbb83409214423b18b"
+    }, {
+      "name" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on 'localhost' ([WinError 10061] 由于目标计算机积极拒绝，无法连接。)\")",
+      "children" : [ {
+        "name" : "test_create_database",
+        "uid" : "29a1a79e965a13f",
+        "parentUid" : "2882b8fa1653ee6b9d260b24fa0c4d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748577458,
+          "stop" : 1557748579463,
+          "duration" : 2005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_create_table",
+        "uid" : "2034a50ce56a6af2",
+        "parentUid" : "2882b8fa1653ee6b9d260b24fa0c4d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748581714,
+          "stop" : 1557748583728,
+          "duration" : 2014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_get_data",
+        "uid" : "8b43c8113a60f0d4",
+        "parentUid" : "2882b8fa1653ee6b9d260b24fa0c4d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748583840,
+          "stop" : 1557748585861,
+          "duration" : 2021
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_insert_data",
+        "uid" : "7cea52b72aea0586",
+        "parentUid" : "2882b8fa1653ee6b9d260b24fa0c4d24",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748595312,
+          "stop" : 1557748597329,
+          "duration" : 2017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2882b8fa1653ee6b9d260b24fa0c4d24"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "children" : [ {
+        "name" : "test_switch_iframe",
+        "uid" : "164950078f1754ee",
+        "parentUid" : "cc61e88d33ea8359d5d55137ecd5816b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748661554,
+          "stop" : 1557748682761,
+          "duration" : 21207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_switch_to_alert",
+        "uid" : "775e568f968fdf79",
+        "parentUid" : "cc61e88d33ea8359d5d55137ecd5816b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748684879,
+          "stop" : 1557748696392,
+          "duration" : 11513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_switch_window_handle",
+        "uid" : "38c6ccc05d138c97",
+        "parentUid" : "cc61e88d33ea8359d5d55137ecd5816b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748707444,
+          "stop" : 1557748721849,
+          "duration" : 14405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_table_util",
+        "uid" : "bccb272d05ead0f6",
+        "parentUid" : "cc61e88d33ea8359d5d55137ecd5816b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748721925,
+          "stop" : 1557748738382,
+          "duration" : 16457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc61e88d33ea8359d5d55137ecd5816b"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom no such window: window was already closed\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "children" : [ {
+        "name" : "test_switch_to_confirm",
+        "uid" : "bd68d493a41b5795",
+        "parentUid" : "acd7102ce3d9c13164b98178eb9b4444",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748696493,
+          "stop" : 1557748700920,
+          "duration" : 4427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acd7102ce3d9c13164b98178eb9b4444"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: session not created\nfrom chrome not reachable\n  (Session info: chrome=72.0.3626.119)\n  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.10240 x86_64)",
+      "children" : [ {
+        "name" : "test_switch_to_prompt",
+        "uid" : "c88d0d821805a070",
+        "parentUid" : "d8d4ec641a1b765e81d3c1adc282c193",
+        "status" : "broken",
+        "time" : {
+          "start" : 1557748701003,
+          "stop" : 1557748707363,
+          "duration" : 6360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8d4ec641a1b765e81d3c1adc282c193"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
