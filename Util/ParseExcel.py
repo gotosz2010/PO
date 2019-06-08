@@ -1,5 +1,7 @@
 # encoding = utf-8
 from openpyxl import load_workbook
+
+
 class ParseExcel(object):
     def __init__(self, excelPath, sheetName):
         """
@@ -10,6 +12,7 @@ class ParseExcel(object):
         self.wb = load_workbook(excelPath)
         self.sheet = self.wb[sheetName]
         self.maxRowNum = self.sheet.max_row
+
     def getDatasFromSheet(self):
         """
         遍历每行数据并放到List

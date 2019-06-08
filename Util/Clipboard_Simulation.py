@@ -8,6 +8,7 @@ __mtime__ = '2018/4/21'
 import win32clipboard as wc
 import win32con
 
+
 class Simulate_Clipboard:
     # 读取剪切板
     @staticmethod
